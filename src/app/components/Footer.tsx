@@ -3,14 +3,14 @@ import Image from 'next/image';
 
 export function Footer() {
 	return (
-		<footer className="bg-zinc-900 border-t border-zinc-700 px-6 py-3 flex items-center justify-between">
+		<footer className="bg-zinc-900 border-t border-zinc-700 px-6 py-3 mt-auto flex items-center justify-between fixed bottom-0 left-0 right-0">
 			<div className="flex items-center gap-4">
 				<Image src="/rodeo.jpg" alt="Album cover" className="rounded-md" width={56} height={56} />
 				<div className="flex flex-col mb-4">
 					<div className="flex-row">
-						<strong className="text-white">
-							Highest In The Room
-							<Heart size={16} className="text-zinc-400 ml-2" />
+						<strong className="text-white inline-flex">
+							Night Crawler
+							<Heart size={16} className="text-zinc-400 ml-4 mt-1" />
 						</strong>
 					</div>
 					<span className="text-xs text-zinc-400">
@@ -28,7 +28,7 @@ export function Footer() {
 					<SkipForward size={20} className="text-zinc-200" />
 					<Repeat size={20} className="text-zinc-200" />
 				</div>
-				<div className="flex items-center gap-4 mt-2">
+				<div className="flex items-center gap-4 mt-3">
 					<span className="text-xs text-zinc-500">0:44</span>
 					<div style={{ width: '40vw' }} className="h-1 rounded-full bg-zinc-600">
 						<div className="h-full w-2/4 rounded-full bg-white"></div>

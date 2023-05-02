@@ -2,7 +2,7 @@ import Head from 'next/head'
 import './globals.css'
 
 export const metadata = {
-	title: 'Streamify',
+	title: 'Scottify',
 	description: 'A Spotify clone built with Next.js and Tailwind CSS.',
 	icons: [
 		{
