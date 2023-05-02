@@ -10,6 +10,12 @@ export function Main() {
 		'/huncho-jack.jpg',
 		'/jackboys.jpg',
 		'/owl-pharaoh.jpg',
+		'/travis-scott.jpg',
+		'/travis-scott-mix.jpg',
+		'/travis-scott-radio.jpg',
+		'/this-is-travis-scott.jpg',
+		'/highest-in-the-room.jpg',
+		'/mamacita.jpg',
 	])
 
 	return (
