@@ -1,6 +1,5 @@
 import { ArrowDown, ChevronLeft, ChevronRight, Play, Plus } from 'lucide-react'
 import Image from 'next/image'
-import './main.css'
 
 export function Main() {
 	const [albumCovers, setAlbumCovers] = Array([
