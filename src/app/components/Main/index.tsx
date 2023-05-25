@@ -89,7 +89,7 @@ export function Main() {
 				<a className="flex items-center gap-4 bg-white/10 group rounded-md hover:bg-white/20 transition-colors">
 					<Image src={albumCovers[Math.floor(Math.random() * albumCovers.length)]} alt="Album cover" className="rounded-md p-1" width={104} height={104} />
 					<strong className="text-xl overflow-x-auto truncate">
-						I Love My 90's
+						I Love My 90s
 					</strong>
 					<button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-600 text-black ml-auto mr-8 invisible group-hover:visible">
 						<Play />
@@ -120,7 +120,7 @@ export function Main() {
 					<a className="bg-white/5 p-2 rounded-md flex flex-col">
 						<Image src={albumCovers[Math.floor(Math.random() * albumCovers.length)]} alt="Album cover" className="rounded-md w-full" width={248} height={248} />
 						<strong className="text-md mt-3 mb-2 pl-2 font-bold overflow-x-auto truncate">
-							I Love My 90's
+							I Love My 2000s
 						</strong>
 						<span className="text-md overflow-x-auto truncate font-medium text-zinc-400 pl-2 pr-2 mb-1">
 							2Pac, Snoop Dogg, Dr. Dre
@@ -129,7 +129,7 @@ export function Main() {
 					<a className="bg-white/5 p-2 overflow-x-hidden rounded-md flex flex-col">
 						<Image src={albumCovers[Math.floor(Math.random() * albumCovers.length)]} alt="Album cover" className="rounded-md w-full" width={248} height={248} />
 						<strong className="text-md mt-3 mb-2 pl-2 font-bold overflow-x-auto truncate">
-							Rap Hits (2010's)
+							Rap Hits (2010s)
 						</strong>
 						<span className="text-md overflow-x-auto truncate font-medium text-zinc-400 pl-2 pr-2 mb-1">
 							Lil Baby, Migos, Travis Scott

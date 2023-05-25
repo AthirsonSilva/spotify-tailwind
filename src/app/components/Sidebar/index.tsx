@@ -50,7 +50,7 @@ export function Sidebar() {
 				<a className="text-sm text-zinc-300" href="">Release Radar</a>
 				<a className="text-sm text-zinc-300" href="">Rap Hits (2010 - 2023)</a>
 				<a className="text-sm text-zinc-300" href="">DOPE.</a>
-				<a className="text-sm text-zinc-300" href="">I Love My 90's</a>
+				<a className="text-sm text-zinc-300" href="">I Love My 90s</a>
 				<a className="text-sm text-zinc-300" href="">Travis Scott</a>
 			</nav>
 		</aside>
